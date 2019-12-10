@@ -1,0 +1,20 @@
+{
+  "name": "iptrace",
+  "version": "1.0.0",
+  "description": "Geolocate IP Addresses through a CLI",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ted Williams",
+  "license": "ISC",
+  "bin": {
+    "iptrace": "./bin/index.js"
+  },
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.0",
+    "yargs": "^15.0.2"
+  }
+}
